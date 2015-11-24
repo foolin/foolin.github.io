@@ -254,16 +254,16 @@ body {
   clear: both;
 }
 .logo {
-  display: block;
+  display: inline-block;
   padding: 10px 0;
-  width: 165px;
-  height: 60px;
-  background-image: url("images/logo-header.png");
   background-position: 0px 10px;
   background-repeat: no-repeat;
   -webkit-background-size: 165px 60px;
   -moz-background-size: 165px 60px;
   background-size: 165px 60px;
+  font-size: 16pt;
+  color: #fff;
+  text-decoration: none;
 }
 .main-body {
   margin-top: -60px;
@@ -338,7 +338,7 @@ body {
   position: relative;
 }
 #header-title {
-  text-align: center;
+  text-align: left;
   padding: 30px 30px;
 }
 #header-title:before,
@@ -351,16 +351,14 @@ body {
 }
 #header-title .logo-wrap,
 #header-title .subtitle-wrap {
-  float: left;
+  padding: 0px;
 }
 #header-title .subtitle-wrap {
-  padding: 10px 0px 0px;
-  margin-left: 20px;
+  padding: 0px;
 }
 #header-title .subtitle {
   font-size: 16px;
   font-style: italic;
-  line-height: 70px;
   color: rgba(255,255,255,0.7);
   text-shadow: 0 1px rgba(0,0,0,0.2);
 }
