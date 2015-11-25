@@ -1022,7 +1022,7 @@ body {
 }
 .article-title {
   text-decoration: none;
-  font-size: 38px;
+  font-size: 30px;
   letter-spacing: -1px;
   color: #555;
   line-height: 1.3em;
@@ -1072,6 +1072,24 @@ a.article-title:hover {
 .article-entry h6 {
   line-height: 1.3em;
   margin: 1.3em 0;
+}
+.article-entry h1 {
+  font-size: 1.3em;
+}
+.article-entry h2 {
+  font-size: 1.2em;
+}
+.article-entry h3 {
+  font-size: 1.1em;
+}
+.article-entry h4 {
+  font-size: 1em;
+}
+.article-entry h5 {
+  font-size: 0.9em;
+}
+.article-entry h6 {
+  font-size: 0.8em;
 }
 .article-entry a {
   color: #3b8dbd;

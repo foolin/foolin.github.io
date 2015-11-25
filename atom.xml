@@ -4,7 +4,7 @@
   <subtitle><![CDATA[www.liufu.me]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://www.liufu.me/"/>
-  <updated>2015-11-24T12:14:08.045Z</updated>
+  <updated>2015-11-25T01:35:39.187Z</updated>
   <id>http://www.liufu.me/</id>
   
   <author>
@@ -15,36 +15,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[我的第一篇博文]]></title>
-    <link href="http://www.liufu.me/2015/11/24/my-first-blog/"/>
-    <id>http://www.liufu.me/2015/11/24/my-first-blog/</id>
-    <published>2015-11-24T11:41:22.000Z</published>
-    <updated>2015-11-24T12:14:08.045Z</updated>
-    <content type="html"><![CDATA[<p>第一篇文章，字少了点，就看看效果。哈哈哈….</p>
-<p>零星碎事，记录和移动互联网开发的点点滴滴~</p>
-<h3 id="Github创建_username-github-io_仓库。">Github创建 username.github.io 仓库。</h3><h3 id="自定义_域名并解析到username-github-io">自定义 域名并解析到username.github.io</h3><h3 id="搭建hexo代码。">搭建hexo代码。</h3><h3 id="部署并发布代码。">部署并发布代码。</h3>]]></content>
-    <summary type="html">
-    <![CDATA[<p>第一篇文章，字少了点，就看看效果。哈哈哈….</p>
-<p>零星碎事，记录和移动互联网开发的点点滴滴~</p>
-<h3 id="Github创建_username-github-io_仓库。">Github创建 username.github.io 仓库。</h3><h3 ]]>
-    </summary>
-    
-      <category term="碎事" scheme="http://www.liufu.me/tags/%E7%A2%8E%E4%BA%8B/"/>
-    
-      <category term="碎事" scheme="http://www.liufu.me/categories/%E7%A2%8E%E4%BA%8B/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Markdown语法大全]]></title>
     <link href="http://www.liufu.me/2015/11/24/markdown/"/>
     <id>http://www.liufu.me/2015/11/24/markdown/</id>
-    <published>2015-11-24T11:41:22.000Z</published>
-    <updated>2015-11-24T12:17:01.656Z</updated>
+    <published>2015-11-24T12:15:28.000Z</published>
+    <updated>2015-11-25T01:35:39.187Z</updated>
     <content type="html"><![CDATA[<p>&lt;&lt; <a href="http://wowubuntu.com" target="_blank" rel="external">访问 Wow!Ubuntu</a></p>
 <p><strong>NOTE:</strong> This is Simplelified  Chinese Edition Document of Markdown Syntax. If you are seeking for English Edition Document. Please refer to <a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">Markdown: Syntax</a>.</p>
 <p><strong>声明：</strong> 这份文档派生(fork)于<a href="http://markdown.tw/" target="_blank" rel="external">繁体中文版</a>，在此基础上进行了繁体转简体工作，并进行了适当的润色。此文档用 Markdown 语法编写，你可以到这里<a href="http://gitcafe.com/riku/Markdown-Syntax-CN/blob/master/syntax.md" target="_blank" rel="external">查看它的源文件</a>。「繁体中文版的原始文件可以<a href="https://github.com/othree/markdown-syntax-zhtw/blob/master/syntax.md" target="_blank" rel="external">查看这里</a> 。」–By @<a href="http://twitter.com/riku" target="_blank" rel="external">riku</a></p>
-<p><strong>注：</strong> 本项目托管于 <a href="http://gitcafe.com/riku/Markdown-Syntax-CN/" target="_blank" rel="external">GitCafe</a>上，请通过”派生”和”合并请求”来帮忙改进本项目。</p>
 <h1 id="Markdown_语法说明_(简体中文版)_/_(点击查看快速入门)">Markdown 语法说明 (简体中文版) / (<a href="./basic.html">点击查看快速入门</a>)</h1><ul>
 <li><a href="#overview">概述</a><ul>
 <li><a href="#philosophy">宗旨</a></li>
@@ -133,7 +111,7 @@
 <p>「由一个或多个连续的文本行组成」这句话其实暗示了 Markdown 允许段落内的强迫换行（插入换行符），这个特性和其他大部分的 text-to-HTML 格式不一样（包括 Movable Type 的「Convert Line Breaks」选项），其它的格式会把每个换行符都转成 <code>&lt;br /&gt;</code> 标签。</p>
 <p>如果你<em>确实</em>想要依赖 Markdown 来插入 <code>&lt;br /&gt;</code> 标签的话，在插入处先按入两个以上的空格然后回车。</p>
 <p>的确，需要多费点事（多加空格）来产生 <code>&lt;br /&gt;</code> ，但是简单地「每个换行都转换为 <code>&lt;br /&gt;</code>」的方法在 Markdown 中并不适合， Markdown 中 email 式的 <a href="#blockquote">区块引用</a> 和多段落的 <a href="#list">列表</a> 在使用换行来排版的时候，不但更好用，还更方便阅读。</p>
-<h3 id="header">标题</h3>
+<h3>标题</h3>
 
 <p>Markdown 支持两种标题的语法，类 <a href="http://docutils.sourceforge.net/mirror/setext.html" target="_blank" rel="external">Setext</a> 和类 <a href="http://www.aaronsw.com/2002/atx/" target="_blank" rel="external">atx</a> 形式。</p>
 <p>类 Setext 形式是用底线的形式，利用 <code>=</code> （最高阶标题）和 <code>-</code> （第二阶标题），例如：</p>
@@ -566,6 +544,27 @@ _   底线
       <category term="备忘" scheme="http://www.liufu.me/tags/%E5%A4%87%E5%BF%98/"/>
     
       <category term="备忘" scheme="http://www.liufu.me/categories/%E5%A4%87%E5%BF%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[我的第一篇博文]]></title>
+    <link href="http://www.liufu.me/2015/11/24/my-first-blog/"/>
+    <id>http://www.liufu.me/2015/11/24/my-first-blog/</id>
+    <published>2015-11-24T11:41:22.000Z</published>
+    <updated>2015-11-24T12:14:08.045Z</updated>
+    <content type="html"><![CDATA[<p>第一篇文章，字少了点，就看看效果。哈哈哈….</p>
+<p>零星碎事，记录和移动互联网开发的点点滴滴~</p>
+<h3 id="Github创建_username-github-io_仓库。">Github创建 username.github.io 仓库。</h3><h3 id="自定义_域名并解析到username-github-io">自定义 域名并解析到username.github.io</h3><h3 id="搭建hexo代码。">搭建hexo代码。</h3><h3 id="部署并发布代码。">部署并发布代码。</h3>]]></content>
+    <summary type="html">
+    <![CDATA[<p>第一篇文章，字少了点，就看看效果。哈哈哈….</p>
+<p>零星碎事，记录和移动互联网开发的点点滴滴~</p>
+<h3 id="Github创建_username-github-io_仓库。">Github创建 username.github.io 仓库。</h3><h3 ]]>
+    </summary>
+    
+      <category term="碎事" scheme="http://www.liufu.me/tags/%E7%A2%8E%E4%BA%8B/"/>
+    
+      <category term="碎事" scheme="http://www.liufu.me/categories/%E7%A2%8E%E4%BA%8B/"/>
     
   </entry>
   
